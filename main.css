@@ -2,22 +2,29 @@ body{
     
 font-family: 'Square Peg', cursive;
 
-
 }
 
-h1{
+:root {
+    --main-branding-color:  rgb(37, 7, 187);
+    --second-branding-color: #FF7143;
+    --position-center: center;
+
+  }
+  
+ 
+h1, h3{
     font-size: 70 px;
-    color: rgb(37, 7, 187);
+    color: var(--main-branding-color);
 }
 
 .top
 {
-    text-align: center;
+    text-align: var(--position-center);
     margin-top:5%;
 }
 .buttons{
     display: flex;
-    justify-content: center;
+    justify-content: var(--position-center);
 }
 
 .button{
@@ -37,27 +44,28 @@ h1{
     width: 50%;
     display: inline-block;
     font: 1em sans-serif;
+    line-height: 1.5;
 }
 
 .button_orange{
-    background: rgb(37, 7, 187);
+    background: var(--main-branding-color);
     margin-right: 20px;
 }
 
 .button_orange:hover{
-    background: #FF7143;
+    background: var(--second-branding-color);
 }
 
 .button_transparent{
     background:none;
-    color:  rgb(37, 7, 187);
-    border: 1px solid  rgb(37, 7, 187);
+    color:  var(--main-branding-color);
+    border: 1px solid  var(--main-branding-color);
     border-radius: 10px;
     margin-left: 20px;
     }
 
 .button_transparent:hover{
-    color: #FF7143;
+    color: var(--second-branding-color);
 
 }
 .img{
@@ -68,13 +76,13 @@ h1{
 }
 
 a {
-    color: #008000; 
+    color: var(--main-branding-color);
     text-decoration: none; 
    }
    a:visited {
-    color: #800080; 
+    color: var(--second-branding-color);
    } 
    a:hover {
-    color: #800000;   
+    color: var(--second-branding-color);  
     text-decoration: underline; 
    }
