@@ -1,0 +1,62 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Square Peg', cursive;
+
+}
+
+h1{
+    font-size: 70 px;
+    color: rgb(37, 7, 187);
+}
+
+.top
+{
+    text-align: center;
+    margin-top:5%;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 212px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.button_orange{
+    background: rgb(37, 7, 187);
+    margin-right: 20px;
+}
+
+.button_orange:hover{
+    background: #FF7143;
+}
+
+.button_transparent{
+    background:none;
+    color:  rgb(37, 7, 187);
+    border: 1px solid  rgb(37, 7, 187);
+    border-radius: 10px;
+    margin-left: 20px;
+    }
+
+.button_transparent:hover{
+    color: #FF7143;
+
+}
+.img{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    max-width: 100%;
+  height: auto;
+}
