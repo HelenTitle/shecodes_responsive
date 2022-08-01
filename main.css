@@ -2,6 +2,7 @@ body{
     
 font-family: 'Square Peg', cursive;
 
+
 }
 
 h1{
@@ -32,6 +33,11 @@ h1{
     cursor: pointer;
 }
 
+.text{
+    width: 50%;
+    display: inline-block;
+    font: 1em sans-serif;
+}
 
 .button_orange{
     background: rgb(37, 7, 187);
@@ -60,3 +66,15 @@ h1{
     max-width: 100%;
   height: auto;
 }
+
+a {
+    color: #008000; 
+    text-decoration: none; 
+   }
+   a:visited {
+    color: #800080; 
+   } 
+   a:hover {
+    color: #800000;   
+    text-decoration: underline; 
+   }
