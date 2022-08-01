@@ -76,6 +76,7 @@ h1, h3{
 }
 
 a {
+   
     color: var(--second-branding-color);
     text-decoration: none; 
    }
