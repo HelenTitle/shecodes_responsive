@@ -76,7 +76,7 @@ h1, h3{
 }
 
 a {
-    color: var(--main-branding-color);
+    color: var(--second-branding-color);
     text-decoration: none; 
    }
    a:visited {
