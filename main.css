@@ -22,7 +22,7 @@ h1, h3{
     text-align: var(--position-center);
     margin-top:5%;
 }
-.buttons{
+.flex_row{
     display: flex;
     justify-content: var(--position-center);
 }
@@ -41,12 +41,12 @@ h1, h3{
 }
 
 
-
 .text{
-    width: 50%;
+    width: 30%;
     display: inline-block;
     font: 1em sans-serif;
     line-height: 1.5;
+    padding: 15px;
 }
 
 .button_orange{
