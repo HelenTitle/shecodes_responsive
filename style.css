@@ -93,3 +93,8 @@
 .sign{
   text-decoration: none;
 }
+
+.logo{
+  color:black;
+  border: 2px #dc3545;
+}
