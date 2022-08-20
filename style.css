@@ -123,4 +123,28 @@ nav a:hover{
   color:#ffcccc
 }
 
-@media (max-width: 12450px) { ... }
+.position_logo{
+  padding: 0 30px;
+  display:flex;
+  justify-content:space-between;
+}
+@media (max-width: 768px) {
+
+  .position_logo{
+  display: block; 
+    }
+  
+    .logo{
+      display: block;
+      margin: 0 auto;
+    }
+    nav ul{
+      margin-top: 15px;
+    }
+      
+nav li{
+  display: block;
+    }
+
+
+}
