@@ -102,8 +102,25 @@ nav li{
   display: inline;
   list-style: none;
   line-height: 60px;
+  color:#ffffff;
+  font-weight: 700;
+  font-size: large;
+  margin-left: 15px;
 }
 
 nav{
   padding: 20px 0;
 }
+
+nav a{
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: large;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:#ffcccc
+}
+
+@media (max-width: 12450px) { ... }
