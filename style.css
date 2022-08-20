@@ -95,6 +95,15 @@
 }
 
 .logo{
-  color:black;
-  border: 2px #dc3545;
+  max-width: 150 px;
+}
+
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 60px;
+}
+
+nav{
+  padding: 20px 0;
 }
