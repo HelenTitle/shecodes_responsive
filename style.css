@@ -113,14 +113,14 @@ nav{
 }
 
 nav a{
-  color: var(--secondary-color);
+  color:#ffcccc; 
   font-weight: 700;
   font-size: large;
   text-decoration: none;
 }
 
-nav a:hover{
-  color:#ffcccc
+nav a:hover, .activelink{
+  color:var(--secondary-color);
 }
 
 .position_logo{
