@@ -140,14 +140,17 @@ nav a:hover{
     }
     nav ul{
       margin-top: 15px;
+      padding-left: 0;
     }
       
 nav li{
   display: block;
+  text-align: center;
+  margin-left: 0;
     }
 
-    nav li {
-      text-align: center;
-    }
+   
+      
+    
 
 }
