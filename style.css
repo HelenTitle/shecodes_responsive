@@ -146,5 +146,8 @@ nav li{
   display: block;
     }
 
+    nav li {
+      text-align: center;
+    }
 
 }
