@@ -55,7 +55,7 @@ p {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color:  var(--secondary-color);
 }
 
 .about-link {
@@ -106,7 +106,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 60px;
-  color: #ffffff;
+  color:  var(--secondary-color);
   font-weight: 700;
   font-size: large;
   margin-left: 15px;
@@ -155,7 +155,7 @@ nav a:hover,
 
 footer .social-links a{
   padding: 10px 14px;
-  color:#ffffff;
+  color: var(--secondary-color);
    background: #ffcccc; 
   margin-left: 10px;
   margin-right: 10px;
