@@ -167,4 +167,15 @@ footer .social-links a{
   color:#dc3545
  }
 
+ .gitlink {
+  padding: 10px 20px 20px 20px;
+  text-align: center;
  
+}
+
+.getlink__a{
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1.5;
+}
