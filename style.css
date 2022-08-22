@@ -155,7 +155,7 @@ nav a:hover,
 }
 
 footer .social-links a{
-  padding: 10px 15px;
+  padding: 10px 14px;
   color:#ffffff;
    background: #ffcccc; 
   margin-left: 10px;
@@ -164,4 +164,6 @@ footer .social-links a{
   border-radius: 50%;
  }
 
-
+ footer .social-links a:hover{
+  color:#dc3545
+ }
